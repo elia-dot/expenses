@@ -80,14 +80,10 @@ header{
 }
 .purchase{
   display: flex;
-  justify-content: space-between;
-  text-align: center;
+  justify-content: space-evenly;
   border-bottom: 2px solid #e6e6ff;
-  padding: 0.2em 4em;
-  position: relative;
+  padding: 0.4em 0;
 }
-.close{
-  position: absolute;
-  right: 5%;
-  cursor: pointer;
+.expense-for{
+  margin: 0 4.5em;
 }
